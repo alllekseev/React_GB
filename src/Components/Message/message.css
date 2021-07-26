@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Message {
+    height: 50vh;
+    padding: 0 20px 0 20px;
+    background-color: #282c34;
+    color: #61dafb;
+    font-size: calc(10px + 2vmin);
+    border-top: 1px solid whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
