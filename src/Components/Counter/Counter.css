@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    padding: 0 calc(50% - 570px);
+}
+
+.counter {
+    background-color: #282c34;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.counter-number {
+    font-size: calc(10px + 2vmin);
+    color: whitesmoke;
+}
+
+.counter-button {
+    width: 11vmax;
+    height: 5vmax;
+    font-size: calc(10px + 2vmin);
+    color: whitesmoke;
+    background-color: #0f6774;
+    border: 1px solid;
+    border-radius: 10px;
+}

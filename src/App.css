@@ -1,5 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.center {
+  padding: 0 calc(50% - 570px);
+}
+
 .App {
   text-align: center;
+  min-height: 100%;
 }
 
 .App-logo {
@@ -15,13 +36,16 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 50vh;
+  min-height: 40px;
+  padding: 10px 0 10px 0;
+  margin-bottom: 1px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  flex: 0 0 auto;
 }
 
 .App-link {
@@ -35,4 +59,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App-messages {
+  min-height: 84vh;
+}
+
+.App-form {
+  background-color: #282c34;
+  flex: 0 0 auto;
 }

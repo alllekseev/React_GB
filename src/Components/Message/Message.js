@@ -1,11 +1,8 @@
-import './message.css'
+import React from "react";
+import "./Message.css"
 
-function Message(props) {
-    return (
-        <div>
-            <p className="Message">{props.message}</p>
-        </div>
-    )
-}
-
-export default Message
+export const Message = ({ text, author }) => (
+    <div className="Message">
+        <p className="Message-p">{author}: {text}</p>
+    </div>
+);
